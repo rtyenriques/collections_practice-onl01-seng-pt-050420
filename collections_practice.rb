@@ -24,6 +24,6 @@ end
 
 def reverse_array(array)
   array.sort do |front, back|
-    back.reverse <=> front
+    back <=> front
   end
 end
