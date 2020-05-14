@@ -39,6 +39,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-array.each.inject do|sum|sum
+  sum = 0
+array.inject {sum, num} sum + num}
 end
 end
