@@ -15,3 +15,9 @@ def sort_array_char_count(array)
     left.length <=> right.length
   end
 end
+
+def swap_elements(array)
+  array.sort do |left, right|
+    left[0] <=> right [1]
+  end
+end
