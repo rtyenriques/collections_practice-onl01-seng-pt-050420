@@ -18,6 +18,6 @@ end
 
 def swap_elements(array)
   array.sort do |left, right|
-    left[0] <=> right [1]
+    left[1] <=> right [2]
   end
 end
