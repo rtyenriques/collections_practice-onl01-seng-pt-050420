@@ -40,6 +40,6 @@ end
 
 def sum_array(array)
   sum = 0
-array.inject {|sum, num| sum + num}
+array.inject(0) {|sum, num| sum + num}
 end
 end
