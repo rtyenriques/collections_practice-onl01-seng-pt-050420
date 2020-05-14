@@ -40,5 +40,5 @@ end
 
 def sum_array(array)
   i = 0
-  array.inject {|sum|i +=sum}
+  array.each do |sum|i +=sum}
 end
